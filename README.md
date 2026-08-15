@@ -27,7 +27,7 @@ ARES is developed incrementally, starting with the implementation of navigation 
 ### Phase 0 - Foundation
 
 - [x] Define the mission and scope of the project
-- [ ] Write initial documentation and requirements
+- [x] Write initial documentation and requirements
 - [x] Set up project structure and repository
 
 ### Phase 1 - Navigation in 2D
