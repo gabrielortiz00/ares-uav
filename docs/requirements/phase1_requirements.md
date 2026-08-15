@@ -2,7 +2,7 @@
 
 ## Scope
 
-Phase 1 builds the first working version of ARES's navigation loop, entirely in a 2D grid simulation. No real sensors, no 3D, no flight dynamics. The goal is to prove out path planning and replanning around obstacles that are only known once detected, and to start measuring how well that actually works.
+Phase 1 builds the first working version of ARES's navigation loop, entirely in a 2D grid simulation. The goal is to prove out path planning and replanning around obstacles that are only known once detected, and to start measuring how well that actually works.
 
 ## Environment Model
 
@@ -36,11 +36,9 @@ Every simulated run records:
 - **Planning time** — time to compute the initial path, and time to compute each replan.
 - **Replan count** — number of times a new detection triggered a replan, per run.
 
-These are collected as a baseline for Phase 1, not compared against a target yet. There's no prior number to compare against until this exists. Once A* and D* Lite are implemented, these same metrics are what make that comparison meaningful instead of anecdotal.
-
 ## Out of Scope for Phase 1
 
 - 3D movement or altitude
 - Any real sensor model, timing, or noise
 - Vehicle dynamics or physical constraints on movement
-- A* and D* Lite (planned as later work, evaluated against this baseline)
+- A* and D* Lite are to be implemented and evaluated in later stages
